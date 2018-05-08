@@ -18,7 +18,7 @@ supported, starting at postgres version 9.4.0.
 
 To install 1.x.x (currently 1.7.x) - which has a stable API and is mostly backwards compatible:
 
-`npm install sequelize`
+`npm install sequelize-wa`
 
 To install 2.x.x branch - which has a unstable API and will break backwards compatability:
 
