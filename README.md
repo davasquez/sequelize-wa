@@ -2,6 +2,18 @@
 
 MySQL, MariaDB, PostgresSQL, and SQLite Object Relational Mapper (ORM) for [node](http://nodejs.org).
 
+### Note
+
+This repository has been cloned from the original repository, based on version 1.7.10:
+
+```bash
+git clone https://github.com/sequelize/sequelize.git .
+git checkout -b version-1.7.10 06506d667cf82bbf8c716800ad5e4c045ba977f5
+```
+
+Then, a workaround has been implemented by removing setting AUTOCOMMIT, which is not
+supported, starting at postgres version 9.4.0.
+
 ### Install
 
 To install 1.x.x (currently 1.7.x) - which has a stable API and is mostly backwards compatible:

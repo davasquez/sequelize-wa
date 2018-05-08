@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "sequelize-wa",
   "description": "Multi dialect ORM for Node.JS",
   "version": "1.7.10",
   "author": "Sascha Depold <sascha@depold.com>",
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "https://github.com/davasquez/sequelize-wa.git"
   },
   "bugs": {
     "url": "https://github.com/sequelize/sequelize/issues"
